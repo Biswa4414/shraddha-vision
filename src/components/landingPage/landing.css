@@ -1,0 +1,40 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75rem;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: -1.875rem;
+  overflow-y: hidden;
+}
+
+img {
+  width: 100%; 
+  max-width: 100%; 
+  height: auto;
+}
+
+.home-container {
+  background-color: var(--black);
+}
+@media only screen and (max-width: 800px) {
+  .carousel-container {
+    width: calc(100% - 2rem);
+    margin: 0 auto; 
+    margin-top: -10rem; 
+  }
+
+  img {
+    max-width: 100%; 
+    height: auto; 
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .carousel-container {
+    width: calc(100% - 2rem);
+    margin: 0 auto; 
+    margin-top: -15rem; 
+  }
+}

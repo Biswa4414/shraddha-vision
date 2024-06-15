@@ -1,0 +1,40 @@
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card-3 {
+  height: 612px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.about {
+  width: 60%;
+  margin-top: 30px;
+}
+
+
